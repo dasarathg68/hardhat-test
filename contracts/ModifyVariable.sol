@@ -8,8 +8,8 @@ contract ModifyVariable {
     x = _x;
   }
 
-  function modifyToLeet() public {
-    x = 1337;
+  function modifyToLeet(uint _x) public {
+    x = _x;
   }
 
 }
